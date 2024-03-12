@@ -1,9 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    text-decoration: none;
 }
 
+img {
+    border: 3px solid;
+    opacity: 0.8;
+    border-radius: 30%;
+} 
+
+img:hover {
+   opacity: 1;
+}
+
+.noirEtBlanc {
+    filter: grayscale(1);
+}
 :root {
     background: black;
 }
